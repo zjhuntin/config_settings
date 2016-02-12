@@ -1,6 +1,15 @@
 [user]
-	name = John Mitsch 
-	email = jomitsch@redhat.com
+		name = Zach Huntington-Meath
+		email = zjhuntingtonmeath@gmail.com
+
+[alias]
+		co = checkout
+		ci = commit
+		st = status
+		br = branch
+		hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+		type = cat-file -t
+		dump = cat-file -p
 
 [diff]
     color = auto
@@ -19,7 +28,7 @@
     default = tracking
 
 [apply]
-  whitespace = strip
+  	whitespace = strip
 [http]
-	sslverify = true
-	sslCAPath = /etc/pki/tls/certs
+		sslverify = true
+		sslCAPath = /etc/pki/tls/certs
