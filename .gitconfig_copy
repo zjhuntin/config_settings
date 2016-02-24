@@ -1,6 +1,6 @@
 [user]
 		name = Zach Huntington-Meath
-		email = zjhuntingtonmeath@gmail.com
+		email = zhunting@redhat.com
 
 [alias]
 		co = checkout
@@ -22,7 +22,7 @@
     color = auto
 
 [core]
-    editor = vi
+    editor = vim
 
 [push]
     default = tracking
