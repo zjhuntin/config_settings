@@ -14,10 +14,7 @@ cd ..; cd -
 
 cd ~/config_settings
 
-cp Gemfile_hammer_katello.local ~/hammer-katello-cli/Gemfile.local
-
-gem install bundler
-bundle install
+cp Gemfile_copy.local ~/hammer-katello-cli/Gemfile.local
 
 mkdir -p ~/.hammer/cli.modules.d
 
@@ -25,4 +22,9 @@ cp foreman_copy.yml ~/.hammer/cli.modules.d/foreman.yml
 
 cp katello_copy.yml ~/.hammer/cli.modules.d/katello.yml
 
-bundle exec hammer vh
+cd ~/hammer-cli-katello
+
+gem install bundler
+bundle install
+
+echo "Remeber to bundle exec hammer -vh when the rails console is on!"
