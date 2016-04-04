@@ -2,4 +2,4 @@
 ./zsh_setup.sh
 ./config_setup.sh
 ./repo_setup.sh
-./hammer_setup
+./hammer_setup.sh
