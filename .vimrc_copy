@@ -14,6 +14,7 @@ Plugin 'airblade/vim-gitgutter.git'
 Plugin 'tpope/vim-fugitive.git'
 Plugin 'git@github.com:easymotion/vim-easymotion.git'
 Plugin 'git@github.com:vim-airline/vim-airline.git'
+Plugin 'git@github.com:ntpeters/vim-better-whitespace.git'
 call vundle#end()           
 filetype plugin indent on    
 syntax on
@@ -74,3 +75,6 @@ if exists("+showtabline")
     set showtabline=1
     highlight link TabNum Special
 endif
+
+set rtp+=/user/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+set laststatus=2
