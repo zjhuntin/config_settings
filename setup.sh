@@ -1,5 +1,5 @@
-./set_up_ssh.sh
-./zsh_setup.sh
-./config_setup.sh
-./repo_setup.sh
-./hammer_setup.sh
+#!/bin/bash
+
+./env_setup/env.sh
+./hammer_setup/hammer.sh
+./foreman_setup/foreman.sh
